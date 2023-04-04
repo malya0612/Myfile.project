@@ -1,0 +1,113 @@
+
+
+booleans
+
+true  = 1
+false = 0
+
+And operator
+1 and 1 = 1
+1 and 0 = 0
+0 and 1 = 0
+0 and 0 = 0
+
+OR operator
+1 or 1 = 1
+1 or 0 = 1
+0 or 1 = 1
+0 or 0 = 0
+
+ || - or
+ && - and
+
+
+
+
+ int a = 5;
+ int b = 10;
+       // true       // false
+ if (a + b == 15 || b - a < 0) {
+    System.out.println("blabla");
+ }
+
+
+ // and
+ char c1 = 'c';
+ char c2 = 'b';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           // 1 and 0
+      // true       // false
+ if (c1 == 'c' && c2 == 'd') {
+    // do smth
+ }
+
+
+ // ex 2:
+ long l1 = 125L;
+ long l2 = 500L;
+
+ if (!(l1 > l2)) {
+    Sout("l1 > l2");
+ } else {
+    Sout("l2 > l1");
+ }
+
+
+
+
+
+
+
+
+
+
+        ////// NUMBERS ///////
+        byte b = 0; // -128:127
+        short s = 1;
+        int i = 0;
+        long l = 1L;
+
+        double d = 2.0;
+        float f = 2f;
+
+        //// Strings and characters
+        char c = 'c';
+        String str = "s";
+
+        /// Booleans
+        boolean bool = true; // false
+
+        // true  = 1
+        // false = 0
